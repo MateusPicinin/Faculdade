@@ -39,7 +39,7 @@ float Q;
 
     Q = (float) N1/N2;
 
-    printf("O resultado da divisão dos dois valores foi: %f", Q);
+    printf("O resultado da divisão dos dois valores foi: %8.3f", Q);
 
     return 0;
 
