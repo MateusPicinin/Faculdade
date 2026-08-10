@@ -1,0 +1,6 @@
+#include <stdio.h>
+Biblioteca de input e output de dados para a linguagem C
+
+unsigned int = Aceita somente números sem sinal. - ou +
+
+imprimir números reais usar %f
