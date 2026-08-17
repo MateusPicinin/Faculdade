@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+
+}
+
+.texto {
+    font-size: 25;
+    color: black;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(229, 1, 1);
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 25;
+}
