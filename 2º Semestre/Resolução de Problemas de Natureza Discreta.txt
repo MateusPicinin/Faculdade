@@ -1,0 +1,16 @@
+Produto Cartesiano 
+
+AxB
+
+A = {1,2,3}
+B = {a,b}
+
+{ (1,a), (2,a), (3,a), (1,b), (2,b), (3,b)  }
+
+
+A x {} = {}
+
+Relação inversa é só trocar os pares
+
+ |A × B| -> Numero de elementos
+

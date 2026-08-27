@@ -1,0 +1,36 @@
+body{
+    background-color: #2b2929;
+    height: 150vh;
+}
+
+th, td{
+    font-size: 40px;
+    text-align: center;
+    border: 3px solid black;
+    padding: 30px;
+    border-color: rgb(245, 243, 243);
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}  
+
+.titulo{
+    text-align: center;
+    line-height: 100px;
+}
+
+.tabela{
+    background-color: rgb(158, 157, 157);
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.conteudo{
+
+}
+

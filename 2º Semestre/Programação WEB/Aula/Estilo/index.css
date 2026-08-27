@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(53, 124, 171);
+    height: 150vh;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tabela{
+    background-color: rgb(237, 233, 233);
+    text-align: center;
+    border: 3px solid black;
+    font-size: 60px;
+    
+    
+}
+
+
+.Titulo {
+    border: 1px solid black;
+}
+
+.Conteudo{
+    border: 3px solid black;
+}
+
+td, th{
+    border: 2px solid black;
+}

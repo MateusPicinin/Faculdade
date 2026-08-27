@@ -1,0 +1,126 @@
+Tipos de transmição
+
+&#x20;- Multicast -> Um grupo somente recebe, nem todos, nem poucos.
+
+&#x20;- Broadcast -> Todos recebem a mensagem
+
+&#x20;- Unicast -> Apenas os selecionados recebem a mensagem
+
+
+
+&#x20;- Todos tem um endereço MAC, que são administrados tanto localmente ou de maneira universal
+
+
+
+Modelo Osi e TCP
+
+
+
+Enlance de Dados e Física  -> Acesso a rede
+
+
+
+
+
+Interfaces de Rede
+
+- Dispositivos que se comunicam através de interfaces de rede (EX: NIC para rede sem fio ou Placa de interface de Rede
+
+
+
+PDU
+
+&#x20;- Unidade básica de comunicação no meio físico
+
+
+
+Endereço Fisico MAC ANDDRESS
+
+- 6 bytes que montam a placa, com o objetivo de nunca ter uma igual no mundo
+
+- formato hexadecimal
+
+
+
+MAC Universal global é gravado na placa oq é inalterável.
+
+
+
+MAC Local pode ser atríbuido localmente por um administrador
+
+
+
+MAC identifica uma interface de rede
+
+
+
+Rede de Barramento
+
+- Apenas um computador transmite por vez
+
+
+
+Rede com HUB
+- Trasmissão realizada por broadcast físico
+
+- HUB recebe informação e retransmite para outra maquina, durante isso outros usuários não podem enviar informações
+
+
+- Switch entende o indereço MEC e filtra para quem enviar imformação ( Ethernet Comutada(Escolhe o caminho))
+
+Endereçamento
+
+ - IPV4
+  -32 bits
+  - Rede distinta, cada uma com um identificador
+
+ - IPV6
+  - 128bits
+
+
+ - No modelo antigo, o primeiro octedo do endereço ip, determinava a classa e a mascara de rede
+ - Prefixo de rede é a parte do endereço ip que identifica a rede
+
+ - Mascara de SUB-REDE --> Serve para separar a parte que identifica a rede da parte que identifica os dispositivos
+
+Para dividir a rede em subredes aplica assim:
+
+11111111. 11111111. 11111111. 10000000
+2 subredes 2¹
+
+11111111. 11111111. 11111111. 11000000
+4 subredes 2²
+E assim em diante
+
+
+CIDR
+ - CIDR é uma mascara de subredes que possibilitou criar redes de tamanho variável, ou seja, sem tamanho inicial
+ - O numero depois da barra mostra quantos bits são destinados a rede
+
+
+
+ - Endereço de rede -> Quando todos os bits do host estiver em 0
+ - Endereço de Broadcast -> Quando todos os bits são 1 ( manda para todos que estão na rede )
+
+
+
+ - UMA MASCARA DE REDE A PARTIR DO MOMENTO QUE APARECEU UM 0 NÂO PODE MAIS APARECER 1!!
+
+REGRAS DE ENDEREÇAMENTO
+
+ - Todos os dispositivos na sub-rede devem ter o mesmo identificador de rede (endereço da sub-rede)
+ - Cada sub-rede deve ter um identificador de rede (endereço) diferente
+ - Quando todos os bits de identificação de dispositivos são 0 temos o endereço de rede
+ - Quando todos os bits de identificação de dispositivos são 1 temos o endereço de broadcast da sub rede
+
+
+
+ ROTEAR
+
+ - Digirir por um caminho, traçar rota
+
+
+
+ Comunicação inter redes
+
+ - O ip mantem so muda cada vez que pula de roteador em roteador o endereço MAC
